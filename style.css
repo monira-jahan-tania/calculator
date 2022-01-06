@@ -22,7 +22,7 @@ body{
     font-weight: 900;
 }
 .description h2{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 5px;
     margin-bottom: 0px;
     color: rgb(56, 55, 55);
@@ -73,12 +73,15 @@ button{
     justify-content: space-between;
 }
 .all-card{
-    background-color: rgb(223, 245, 245);
+    background-color: rgb(207, 243, 243);
     width: 27%;
     border-radius: 10%;
     padding: 2%;
     text-align: left;
     
+}
+.all-card h2{
+    color: rgb(41, 39, 39);
 }
 .all-card img{
     width: 50%;
