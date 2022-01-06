@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* section1 */
+
 .intro{
     display: flex;
     margin: 2% 5%;
@@ -49,6 +52,9 @@ button{
     font-size: 15px;
     font-weight: 600;
 }
+
+/* section2 */
+
 .missions{
     margin: 10%;
     text-align: center;
@@ -87,6 +93,8 @@ button{
     background-color: rgb(235, 233, 203);
 }
 
+/* section3 */
+
 .develop{
     margin-top: 5%;
     background-image: url(images/shapes/shape-1.png);
@@ -110,6 +118,9 @@ button{
 .develop .description{
     margin: 5%;
 }
+
+/* section4 */
+
 .community{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -132,6 +143,77 @@ button{
     padding-top: 20%;
     padding-bottom: 12%;
 }
+
+/* bonus section */
+
+.bonus{
+    background-color: rgb(187, 202, 187);
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bonus .box h3{
+    color: #222;
+    font-size: 40px;
+}
+.bonus p{
+    color: rgb(85, 82, 82) ;
+}
+.contact{
+    display: flex;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.form h3{
+    color: rgb(56, 15, 15);
+}
+.form input, textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+.form textarea{
+    height: 100px;
+}
+.form button{
+    margin-right: 70%;
+}
+.info{
+    width: 50%;
+    display: felx;
+    flex-direction: column;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    padding-right: 30%;
+    align-items: center;
+}
+.div img{
+    width: 25%;
+}
+.div .inform{
+    padding: 2%;
+    width: 50%;
+}
+
+.div h3{
+    color: rgb(107, 60, 60);
+}
+
+/* footer */
+
 .last{
     background-color: black;
     color: rgb(94, 91, 87);
@@ -141,6 +223,7 @@ button{
     text-align: center;
  
 }
+
 .last h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
