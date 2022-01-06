@@ -146,6 +146,9 @@ button{
     padding-top: 20%;
     padding-bottom: 12%;
 }
+.community .description{
+    padding-top: 4%;
+}
 
 /* bonus section */
 
@@ -226,7 +229,6 @@ button{
     text-align: center;
  
 }
-
 .last h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
