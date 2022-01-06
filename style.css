@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* section1 */
+/* section of introduction */
 
 .intro{
     display: flex;
@@ -53,7 +53,7 @@ button{
     font-weight: 600;
 }
 
-/* section2 */
+/* section of missions */
 
 .missions{
     margin: 10%;
@@ -96,7 +96,7 @@ button{
     background-color: rgb(235, 233, 203);
 }
 
-/* section3 */
+/* section of expertisation/ develop */
 
 .develop{
     margin-top: 5%;
@@ -120,9 +120,10 @@ button{
 }
 .develop .description{
     margin: 5%;
+    padding-top: 3%;
 }
 
-/* section4 */
+/* section of abilities/ community */
 
 .community{
     background-image: url(images/shapes/shape-1.png);
@@ -131,7 +132,6 @@ button{
     background-position-y: 100%;
     background-size: 18%;
 }
-
 .community .box{
     font-family: 'poppins', sans-serif;
     
